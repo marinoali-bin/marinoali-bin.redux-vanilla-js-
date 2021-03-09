@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.5/redux.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Redux avec Vanilla Javascript</title>
+</head>
+<body>
+    <h1>Notre application</h1>
+    <div class="container">
+        <div class="photo">
+            <img src="https://images.unsplash.com/photo-1605787020600-b9ebd5df1d07?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1463&q=80" alt="Telephone" >
+        </div>
+        <p>En Stock:
+            <span id='count-phones' class="count"></span>
+        </p>
+        <button id='buy-phone' class="btn">Acheter</button>
+    </div>
+    <div class="container">
+            <div class="photo">
+                <img src="https://cdn.mos.cms.futurecdn.net/mYqKAn6RCL65SSs2U3muiE.jpg" alt="Telephone" >
+            </div>
+            <p>En Stock:
+                <span id='count-tab' class="count"></span>
+            </p>
+            <button id='buy-tablet' class="btn">Acheter</button>
+    </div>
+
+    <div class="container">
+        <div class="photo">
+            <img src="https://brain-images-ssl.cdn.dixons.com/9/4/10207649/u_10207649.jpg" alt="Television" >
+        </div>
+        <p>En Stock:
+            <span id='count-tv' class="count"></span>
+        </p>
+        <button id='buy-tv' class="btn">Acheter</button>
+    </div>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
